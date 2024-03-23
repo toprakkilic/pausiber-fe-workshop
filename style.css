@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto+Mono:wght@100..700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+
+}
+body{
+    background-color: #fff3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-infos-content{
+   display: flex;
+   flex-direction: column;
+   row-gap: 50px    ;
+
+}
+
+.main-infos-content > h1{
+    color: black;
+    font-size: 66px;
+    line-height: 72px;
+}
+
+.main-infos-content > h1 span{
+    border-bottom: 4px solid cadetblue;
+}
+
+.main-infos-content > p{
+    color: #222;
+    font-size: 24px; 
+} 
+
+.main-infos-content > button{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    background-color: transparent;
+    color: #222;
+    border: none;
+    border-bottom: 3px solid cadetblue;
+    cursor: pointer;
+}
+
+.social{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    /* background-color: cadetblue; */
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-right: 10px;
+    text-decoration: none;
+    border: 3px solid cadetblue;
+
+}
+.social:hover{
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
+.main-img > img{
+    width: 450px;
+    height: auto;   
+
+
+}
+.cat{
+    margin: 50px 0 ;
+    padding-bottom: 10px;
+    border-bottom: 3px solid cadetblue;
+    font-size: 24px;
+    
+}
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills-container > img{
+    width: 70px;
+    height: auto;
+}
+
+.project img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.projectTitle{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
