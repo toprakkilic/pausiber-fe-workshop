@@ -2,10 +2,15 @@ const projectsContainer = document.querySelector('.projects-container');
 
 const typed = new Typed('.input',{
     strings : ['Toprak KILIÇ.','Developer.'],
-    typeSpeed: 70,
+    typeSpeed: 120,
     backSpeed: 100,
     loop: true,
 });
+
+function toggleTheme() {
+    document.body.classList.toggle('dark-theme');
+  }
+  
 
 projectsData.forEach((project) =>{
     const projectDiv = document.createElement('div');
